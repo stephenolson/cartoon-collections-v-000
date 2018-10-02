@@ -14,7 +14,9 @@ end
 def summon_captain_planet(calls)
   planeteer_calls = []
   calls.collect do |calls|
-    .upcase
+    planeteer_calls << "#{calls.capitalize}!"
+  end
+  planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
