@@ -13,7 +13,7 @@ end
 
 def summon_captain_planet(calls)
   planeteer_calls = []
-  calls.collect do |planeteer_calls|
+  calls.collect do |calls|
     .upcase
 end
 
