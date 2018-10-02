@@ -12,7 +12,7 @@ end
 # end
 
 def summon_captain_planet(calls)
-  # Your code here
+  calls.each do |calls|
 end
 
 def long_planeteer_calls# code an argument here
