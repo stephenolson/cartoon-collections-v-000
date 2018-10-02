@@ -11,8 +11,8 @@ end
 #  end 
 # end
 
-def summon_captain_planet(calls)
-  calls.each do |calls|
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.each do |calls|
 end
 
 def long_planeteer_calls# code an argument here
